@@ -1,0 +1,7 @@
+
+.noimprimir{
+    display:none;
+}
+.imprimir{
+    display:block!important;
+}

@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("prueba2.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    
+}
+.layout {
+    /* width: 1366px;
+    height: 768px; */
+
+    display: grid;
+    grid-template-rows: 0.5fr 0.5fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.sobremi,.aptitudes,.programas,.exp,.est,.idiomas{
+    text-align: center;
+    padding: 30px;
+    margin: 30px;
+}
+header{
+    background-color: rgb(254, 240, 254);
+
+}
+h1{
+    text-align: center;
+    background: linear-gradient(rgb(238, 34, 238),rgb(147, 3, 133));
+    background-clip: text;
+    color: transparent;  
+    padding: 0.5em;
+    text-shadow: 9px 12px 12px solid black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    letter-spacing: 0.18em;
+}
+h1:hover{
+    background: linear-gradient(rgb(37, 0, 4),purple);
+    background-clip: text;
+    color: transparent; 
+}
+h4{
+    color: rgb(182, 14, 182);
+    font:  bold 140% Lucida;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 0.15em;
+}
+h4:hover{
+    color: black;
+}
+.principal{
+    size: 2px;
+    color: purple;
+    margin: 0 auto;
+    border-top-width: 5px;
+
+}
+.barra{
+    width: 80%;
+    margin-top: 6px;
+    margin-bottom: 15px;
+    
+}
+.grafico{
+    width: 550px;
+    height: 350px;
+    filter: (1.1);
+    mix-blend-mode: multiply;
+    border: 3px solid purple;
+}
+p{
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.svg{
+    padding-right: 10px;
+}
+.datos1{
+    padding-top: 20px;
+    padding-left: 20px;
+    display: grid;
+    grid-template-rows: 0.5fr 0.5fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    box-shadow: none;
+    font-size: 120%;
+}
+a:hover{
+    cursor: pointer;
+    color: blueviolet;
+}
+#experiencia{
+    display:none
+}
+#btn-collapse{
+    background-color: transparent;
+    padding: 4px;
+    opacity: 0.5;
+    margin-left: 40px;
+    border: none;
+    margin-top: 3px;
+}
+#btn-collapse,h4{
+    display: inline-block;
+    text-align: justify;
+}
+.collapse{
+    display:none;
+}
+

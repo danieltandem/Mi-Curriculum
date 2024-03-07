@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Daniel Vargas</title>
+    <link rel="stylesheet" href="curri.css">
+    <link rel="icon" type="image/svg+xml" href="images/pingu.png"/>
+    <link rel="stylesheet" href="print.css" media="print">
+    <meta name="description" content="Esta sera nuesta primera app react">
+</head>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <h1>Daniel Vargas de Miguel</h1>
+			<div class="datos1">
+                <p><img src="images/mail.svg" alt="email" class="svg"><span><a href="mailto:danielvargasdemiguel@gmail.com">Danielvargasdemiguel@gmail.com</a></span></p>
+                <p><img src="images/phone-call.svg" alt="telefono" class="svg"> <span class="texto"><a href="tel: +34654372618">654372618</a></span></p>
+                <p><img src="images/brand-linkedin.svg" alt="linkedin" class="svg"> <a href="https://www.linkedin.com/in/daniel-vargas-de-miguel-b54090167?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" alt="linkedin">Daniel Vargas De Miguel </a></p>
+                <p><img src="images/brand-github.svg" alt="GitHub"class="svg"><a href="https://github.com/danieltandem" alt="github">danieltandem</a> </p>
+		</div>
+        </div>
+    </header>
+    <hr class="principal">
+    <div class="layout cuerpo">
+    <div class="sobremi">
+       <h4>SOBRE MI </h4><button id="btn-collapse" onclick="mostrar('collapse')" class="noimprimir" class="fondobtn"><img src="images/collapse.svg" alt="collapse" id="imgco"></button> 
+        <hr class="barra">
+       <div class="imprimir" id="collapse">
+        <p>« Me presento me llamo Daniel, soy informático y programador desde hace 4 años. Tanto la informatica como la programacion me apasionan y me encanta mi trabajo » </p>
+        </div>
+    </div>
+    <div class="aptitudes">
+        <h4>APTITUDES</h4></h4><button id="btn-collapse" onclick="mostrar('collapse')" class="noimprimir" class="fondobtn"><img src="images/collapse.svg" alt="collapse" id="imgco"></button>
+        <hr class="barra">
+        <div class="imprimir" id="collapse">
+        <p>Entre mis aptitudes estan el trabajo en equipo, la capacidad para resolver problemas y el esfuerzo </p>
+    </div>
+    </div>
+    <div class="exp">
+        <h4>EXPERIENCIA</h4>
+        <hr class="barra">
+        <p>He trabajado como </p>
+    </div>
+    <div class="est">
+        <h4>ESTUDIOS</h4>
+        <hr class="barra">
+        <p>He trabajado como </p>
+    </div>
+    <div class="idiomas">
+        <h4>IDIOMAS</h4>
+        <hr class="barra">
+        <p>He trabajado como </p>
+    </div>
+    <div class="programas">
+        <h4>PROGRAMAS</h4>
+        <hr class="barra">
+        <img src="images/programas.png" alt="programas" class="grafico">
+    </div>
+    </div>
+    <div class="pdfyword">
+    <button onclick="imprimir()" class="noimprimir">imprimir
+        
+
+    </div>
+    <script>
+        function imprimir(){
+            window.print()
+        }
+        function mostrar(id){
+            let elemento = document.getElementById("collapse")
+            if(elemento.style.display == "none"){
+            document.getElementById("collapse").style.display='block'
+            }
+            else{
+                document.getElementById("collapse").style.display="none"
+            }
+        }
+      </script>
+</body>
+</html>
