@@ -81,6 +81,8 @@ p{
 }
 .svg{
     padding-right: 10px;
+    width: 30px;
+    height: 30px;
 }
 .datos1{
     padding-top: 20px;
@@ -141,6 +143,9 @@ a:hover{
     filter: (1.1);
     mix-blend-mode: multiply;
     margin: 15px;
+    border: 3px solid black;
+    border-radius: 70%;
+
 }
 .btnimpr{
     background-color: transparent;
@@ -154,7 +159,6 @@ a:hover{
 .btnimpr:hover{
     cursor: pointer;
     background-color: rgb(249, 181, 249);
-    ;
 }
 .imgpdf{
     width: 50px;
@@ -164,3 +168,8 @@ a:hover{
     font-size: 140%;
 }
 
+@media (max-width: 768px) {
+    body {
+    width: 80%;
+    }
+}

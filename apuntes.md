@@ -20,5 +20,4 @@ v3-Grafico con las skills
 # DATOS QUE QUEDAN
 Experiencia dentro y fuera
 Datos Personales
-
-Datos: aptitudes exp estu idiomas y programa
+after page para los saltos de pagina
