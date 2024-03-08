@@ -136,8 +136,8 @@ a:hover{
     flex-grow: 1; 
 }
 .imgfoot{
-    width: 50px;
-    height: 40px;
+    width: 75px;
+    height: 75px;
     filter: (1.1);
     mix-blend-mode: multiply;
     margin: 15px;
@@ -146,7 +146,7 @@ a:hover{
     background-color: transparent;
     color: white;
     border: 3px groove black;
-    padding: 20px 30px;
+    padding: 10px;
     font-size: 16px;
     font-weight: bold;
     margin: 20px;
@@ -159,5 +159,8 @@ a:hover{
 .imgpdf{
     width: 50px;
     height: 50px;
+}
+.copy{
+    font-size: 140%;
 }
 
