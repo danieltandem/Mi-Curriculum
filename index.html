@@ -12,65 +12,82 @@
 </head>
 <body>
     <header>
-        <div class="header">
+        <div class="header imprimir">
             <h1>Daniel Vargas de Miguel</h1>
 			<div class="datos1">
                 <p class="datos"><img src="images/mail.svg" alt="email" class="svg"><span><a href="mailto:danielvargasdemiguel@gmail.com">Danielvargasdemiguel@gmail.com</a></span></p>
-                <p class="datos"><img src="images/phone-call.svg" alt="telefono" class="svg"> <span class="texto"><a href="tel: +34654372618">654372618</a></span></p>
+                <p class="datos padi"><img src="images/phone-call.svg" alt="telefono" class="svg"> <span class="texto"><a href="tel: +34654372618">654372618</a></span></p>
                 <p class="datos"><img src="images/brand-linkedin.svg" alt="linkedin" class="svg"> <a href="https://www.linkedin.com/in/daniel-vargas-de-miguel-b54090167?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" alt="linkedin">Daniel Vargas De Miguel </a></p>
-                <p class="datos"><img src="images/brand-github.svg" alt="GitHub"class="svg"><a href="https://github.com/danieltandem" alt="github">danieltandem</a> </p>
+                <p class="datos padi"><img src="images/brand-github.svg" alt="GitHub"class="svg"><a href="https://github.com/danieltandem" alt="github">danieltandem</a> </p>
 		</div>
         </div>
     </header>
     <hr class="principal">
     <div class="layout cuerpo">
     <div class="sobremi">
-       <h4>SOBRE MI </h4><button id="btn-collapse" onclick="mostrar('collapse')" class="noimprimir" class="fondobtn"><img src="images/collapse.svg" alt="collapse" id="imgco"></button> 
+       <h4>SOBRE MI </h4><button id="btn-collapse" onclick="mostrar('collapse')" class="noimprimir" class="fondobtn"><img src="images/collapse.svg" alt="collapse" id="imgco" class="noimprimir"></button> 
         <hr class="barra">
        <div class="imprimir" id="collapse">
-        <p>« Me presento me llamo Daniel, soy informático y programador desde hace 4 años. Tanto la informatica como la programacion me apasionan y me encanta mi trabajo » </p>
+        <p class="oculto">« Me presento me llamo Daniel, soy informático y programador desde hace 4 años. Tanto la informatica como la programacion me apasionan y me encanta mi trabajo.Me apunte al programa Tándem por la oportunidad de crecer en este ambito laboral » </p>
         </div>
-    </div>
-    <div class="aptitudes">
-    <h4>APTITUDES</h4><button id="btn-collapse" onclick="mostrar('collapse')" class="noimprimir" class="fondobtn"><img src="images/collapse.svg" alt="collapse" id="imgco"></button> 
+        </div>
+        <div class="programas">
+            <h4>PROGRAMAS </h4><button id="btn-collapse" onclick="mostrar2('collapse2')" class="noimprimir" class="fondobtn"><img src="images/collapse.svg" alt="collapse" id="imgco" class="noimprimir"></button> 
+            <hr class="barra">
+            <div class="imprimir" id="collapse2">
+                <img src="images/programas.png" alt="programas" class="grafico">
+            </div>
+            </div>
+    <div class="act">
+    <h4>ACTITUDES</h4><button id="btn-collapse" onclick="mostrar3('collapse3')" class="noimprimir" class="fondobtn"><img src="images/collapse.svg" alt="collapse" id="imgco" class="noimprimir"></button> 
     <hr class="barra">
-    <div class="imprimir" id="collapse">
-        <p>«Soy una persona » </p>
+    <div class="imprimir" id="collapse3">
+        <p>«Soy una persona con una gran capacidad para aprender liderazgo y trabajo de equipo. Tambien destaco por mi capacidad de resolver problemas y aportar calma en los peores momentos  » </p>
     </div>
     </div>
     <div class="exp">
-    <h4>EXPERIENCIA </h4><button id="btn-collapse" onclick="mostrar('collapse')" class="noimprimir" class="fondobtn"><img src="images/collapse.svg" alt="collapse" id="imgco"></button> 
+    <h4>EXPERIENCIA </h4><button id="btn-collapse" onclick="mostrar4('collapse4')" class="noimprimir" class="fondobtn"><img src="images/collapse.svg" alt="collapse" id="imgco" class="noimprimir"></button> 
     <hr class="barra">
-    <div class="imprimir" id="collapse">
-        <p>«Mi experiencia laboral es: » </p>
+    <div class="imprimir" id="collapse4">
+        <p>«Mi experiencia laboral es: 
+        <ul>
+            <li>- Practicas como administrador de sistemas informaticos (4 meses)</li>
+            <li>- 15 meses en el desarrollo del curso IFCD 0210 alternando estudios y trabajo» </li>
+        </ul>
+        </p>
     </div>
     </div>
     <div class="est">
-    <h4>ESTUDIOS </h4><button id="btn-collapse" onclick="mostrar('collapse')" class="noimprimir" class="fondobtn"><img src="images/collapse.svg" alt="collapse" id="imgco"></button> 
+    <h4>ESTUDIOS </h4><button id="btn-collapse" onclick="mostrar5('collapse5')" class="noimprimir" class="fondobtn"><img src="images/collapse.svg" alt="collapse" id="imgco" class="noimprimir"></button> 
     <hr class="barra">
-    <div class="imprimir" id="collapse">
-        <p>«Mis estudios son:  » </p>
+    <div class="imprimir" id="collapse5">
+        <p>«Mis estudios son:  
+            <ul>
+                <li>Montaje y reparacion de Sistemas Microinformáticos IFCT 0309 (500 horas)</li>
+                <li>Formacion reglada IFCD 0210</li>
+                <li>Cursos Google</li>
+            </ul></p>
     </div>
     </div>
     <div class="idiomas">
-    <h4>IDIOMAS </h4><button id="btn-collapse" onclick="mostrar('collapse')" class="noimprimir" class="fondobtn"><img src="images/collapse.svg" alt="collapse" id="imgco"></button> 
+    <h4>IDIOMAS </h4><button id="btn-collapse" onclick="mostrar6('collapse6')" class="noimprimir" class="fondobtn"><img src="images/collapse.svg" alt="collapse" id="imgco" class="noimprimir"></button> 
     <hr class="barra">
-    <div class="imprimir" id="collapse">
-    <p>Mis idiomas:  » </p>
+    <div class="imprimir" id="collapse6">
+    <p>Mis idiomas:  »
+        <ul>
+            <li>Español: Nativo</li>
+            <li>Ingles: Intermedio</li>
+        </ul> </p>
     </div>
     </div>
-    <div class="programas">
-    <h4>PROGRAMAS </h4><button id="btn-collapse" onclick="mostrar('collapse')" class="noimprimir" class="fondobtn"><img src="images/collapse.svg" alt="collapse" id="imgco"></button> 
-    <hr class="barra">
-        <img src="images/programas.png" alt="programas" class="grafico">
-    </div>
+   
     </div>
     <section class="footer">
         <div class="grow algo "><button onclick="imprimir()" class="noimprimir btnimpr"><img src="images/pdf.svg" class="noimprimir imgpdf" alt="pdf"></div> 
         <div class="grow copy"><p>Daniel Vargas de Miguel  2024 &copy;</p></div>
         <div class="grow">
-            <a href="https://github.com/danieltandem"><img src="images/github.png" class="imgfoot" alt="github"></a>
-            <a href=""><img src="images/linkedin.png" class="imgfoot" alt="linkedin"></a>
+            <a href="https://github.com/danieltandem"><img src="images/github.png" class="imgfoot noimprimir" alt="github"></a>
+            <a href="https://www.linkedin.com/in/daniel-vargas-de-miguel-b54090167?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><img src="images/linkedin.png" class="imgfoot noimprimir" alt="linkedin"></a>
         </div>
       </section> 
 
@@ -83,8 +100,8 @@
         function imprimir(){
             window.print()
         }
-        function mostrar(id){
-            let elemento = document.getElementById("collapse")
+        function mostrar(){
+            let elemento =  document.getElementById("collapse")
             if(elemento.style.display == "none"){
             document.getElementById("collapse").style.display='block'
             }
@@ -92,6 +109,63 @@
                 document.getElementById("collapse").style.display="none"
             }
         }
-      </script>
+            function mostrar2(){
+            let elemento2 = document.getElementById("collapse2")
+            
+            if(elemento2.style.display == "none"){
+            document.getElementById("collapse2").style.display='block'
+            }
+            else{
+                document.getElementById("collapse2").style.display="none"
+            }
+            }
+
+            function mostrar3(){
+            let elemento3 = document.getElementById("collapse3")
+            
+            if(elemento3.style.display == "none"){
+            document.getElementById("collapse3").style.display='block'
+            }
+            else{
+                document.getElementById("collapse3").style.display="none"
+            }
+            }
+            
+            function mostrar4(){
+            let elemento4 = document.getElementById("collapse4")
+            
+            if(elemento4.style.display == "none"){
+            document.getElementById("collapse4").style.display='block'
+            }
+            else{
+                document.getElementById("collapse4").style.display="none"
+            }
+            }
+            
+            function mostrar5(){
+            let elemento5 = document.getElementById("collapse5")
+            
+            if(elemento5.style.display == "none"){
+            document.getElementById("collapse5").style.display='block'
+            }
+            else{
+                document.getElementById("collapse5").style.display="none"
+            }
+            }
+            
+            function mostrar6(){
+            let elemento6 = document.getElementById("collapse6")
+            
+            if(elemento6.style.display == "none"){
+            document.getElementById("collapse6").style.display='block'
+            }
+            else{
+                document.getElementById("collapse6").style.display="none"
+            }
+            }
+
+            
+        
+    </script>
 </body>
 </html>
