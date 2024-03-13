@@ -12,7 +12,6 @@ body{
 }
 .layout {
     display: grid;
-    grid-template-rows: 0.75fr 0.75fr;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
 }
@@ -217,3 +216,44 @@ li{
     max-height: 450px;
 }
 
+@media only screen and (max-width: 700px) {
+    .layout {
+        grid-template-columns: 1fr;
+    }
+
+    .datos1 {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .footer {
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+    }
+
+    .copy {
+        padding: 0;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .algo {
+        padding-left: 0;
+    }
+
+    .grow {
+        margin-bottom: 20px;
+    }
+
+    .imgfoot {
+        margin: 5px;
+    }
+
+    .btnimpr {
+        margin: 10px;
+    }
+
+    .sobremi, .exp {
+        max-height: none;
+    }
